@@ -12,7 +12,7 @@ Este projeto é uma plataforma web temática sobre a franquia de filmes Piratas 
 ## 📷 Previews
 
 ![Home1-Desktop](./src/assets/previews/Home.jpg)
-![Home2-Desktop](./src/assets/previews/Home2.jpg.jpg)
+![Home2-Desktop](./src/assets/previews/Home2.jpg)
 ![Fotos-Desktop](./src/assets/previews/Fotos.jpg)
 ![Home-Mobile](./src/assets/previews/Home-mobile.jpg)
 ![Fotos-Mobile](./src/assets/previews/Fotos-mobile.jpg)
