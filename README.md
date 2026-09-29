@@ -1,46 +1,90 @@
-# Getting Started with Create React App
+# 🏴‍☠️ Piratas do Caribe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma plataforma web temática sobre a franquia de filmes Piratas do Caribe, desenvolvida com o objetivo de explorar e consolidar conhecimentos avançados em React, TypeScript, Styled Components e Design Responsivo.
 
-## Available Scripts
+## 📋 Funcionalidades
 
-In the project directory, you can run:
+- **Home:** Apresentação do trailer oficial com controles customizados e sinopse da saga.
+- **Fotos:** Grade de personagens utilizando componentes reutilizáveis e propriedades (props) para renderização dinâmica.
+- **Comentários:** Seção dedicada ao feedback do público, gerenciando o estado global ou local da aplicação.
+- **Contato:** Página com integração direta ao perfil do desenvolvedor no GitHub.
 
-### `npm start`
+## 📷 Previews
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Home1-Desktop](./src/assets/previews/Home.jpg)
+![Home2-Desktop](./src/assets/previews/Home2.jpg.jpg)
+![Fotos-Desktop](./src/assets/previews/Fotos.jpg)
+![Home-Mobile](./src/assets/previews/Home-mobile.jpg)
+![Fotos-Mobile](./src/assets/previews/Fotos-mobile.jpg)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🚀 Tecnologias Utilizadas
 
-### `npm test`
+O projeto foi construído utilizando as melhores práticas do desenvolvimento Front-End moderno:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React com TypeScript (TSX):** 
+  - Criação de interfaces de usuário baseadas em componentes tipados, garantindo maior segurança e previsibilidade no código.
+  - Utilização de Hooks (como useState, useEffect e Context API) para gerenciamento de estado e interatividade.
+- **Styled Components:** 
+  - **CSS-in-JS:** Estilização encapsulada por componente, evitando conflitos de classes globais e mantendo o escopo limpo.
+  - **Estilização Dinâmica:** Uso de propriedades (props) passadas aos componentes para criar variações visuais baseadas no estado da aplicação.
+- **Responsividade:**
+  - Uso de Media Queries diretamente integradas aos arquivos de Styled Components.
+  - Flexbox e Grid aplicados aos componentes para adaptar o layout a diferentes tamanhos de tela (Mobile, Tablet, Desktop).
 
-### `npm run build`
+## 📂 Estrutura de Pastas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+iniciando_styled_components/
+├── node_modules/
+├── public/
+├── src/
+│   ├── assets/              # Imagens, vídeos, logos e ícones do projeto
+│   ├── components/          # Componentes isolados e reutilizáveis
+│   ├── contexts/            # Contextos do React para gerenciamento de estados globais
+│   ├── pages/               # Páginas principais da aplicação
+│   ├── App.css              # Estilos complementares do componente App
+│   ├── App.tsx              # Componente raiz
+│   ├── index.css            # Estilos globais básicos
+│   ├── index.tsx            # Ponto de entrada da aplicação
+│   ├── react-app-env.d.ts   # Declarações de tipos do Create React App
+│   ├── reportWebVitals.ts   # Medição de performance
+│   └── setupTests.ts        # Configurações de testes
+├── .gitignore               # Arquivos e pastas ignorados pelo Git
+├── package-lock.json        # Árvore de dependências exata
+├── package.json             # Gerenciamento de dependências e scripts
+├── README.md                # Documentação do projeto
+└── tsconfig.json            # Configurações do compilador TypeScript
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔍 Boas Práticas Implementadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Tipagem Estática:** Uso de TypeScript para definir interfaces e tipos para props e estados, reduzindo erros em tempo de execução.
+- **Componentização:** Código modular e escalável, separando responsabilidades visuais da lógica de negócios.
+- **Acessibilidade:** Uso de atributos aria-label e HTML semântico no JSX, garantindo que leitores de tela interpretem o conteúdo corretamente.
+- **Segurança:** Links externos configurados com target="_blank" e rel="noopener noreferrer" para proteger a navegação do usuário.
 
-### `npm run eject`
+## 🛠️ Como Executar o Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Clone este repositório:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/SDN-Daniel/React-Styled-Components-TSX.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Navegue até a pasta do projeto:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+cd iniciando_styled_components
 
-## Learn More
+3. Instale as dependências:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Inicie o servidor local:
+
+npm start
+
+5. Abra o link gerado no terminal em qualquer navegador moderno.
+
+## 👨‍💻 Autor
+
+Desenvolvido por Daniel Santos do Nascimento.
+
+GitHub: https://github.com/SDN-Daniel
+
+Este projeto foi desenvolvido para fins de estudo e exploração técnica das capacidades do ecossistema React, TypeScript e bibliotecas de estilização avançada.
